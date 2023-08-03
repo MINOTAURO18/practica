@@ -1,0 +1,43 @@
+*{
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+img{
+  width: 40px;
+}
+
+.dark{
+  background: #010B13;
+      width: 100%;
+      height: 100vh;
+      transition: all .2s ease-in-out;
+     
+}
+
+.default{
+  background: #0668b8;
+      width: 100%;
+      height: 100vh;
+      transition: all .2s ease-in-out;
+}
+
+section{
+  background-color: #010B13;
+  width: 100%;
+  min-height: 100vh;
+  padding: 10vh;
+  color: aliceblue;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  text-align: center;
+}
+
+button{
+  width: 100px;
+  height: 40px;
+}
